@@ -95,11 +95,13 @@
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <AdditionalIncludeDirectories>C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\vulkan\Include;C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\glm\;C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\glfw-3.3.8.bin.WIN64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\vulkan\Lib;C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\glfw-3.3.8.bin.WIN64\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\vulkan\Lib;C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\glfw-3.3.8.bin.WIN64\lib-vc2019;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>vulkan-1.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -114,13 +116,15 @@
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <AdditionalIncludeDirectories>C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\vulkan\Include;C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\glm\;C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\glfw-3.3.8.bin.WIN64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\vulkan\Lib;C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\glfw-3.3.8.bin.WIN64\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\vulkan\Lib;C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\glfw-3.3.8.bin.WIN64\lib-vc2019;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>vulkan-1.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -133,11 +137,13 @@
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <AdditionalIncludeDirectories>C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\vulkan\Include;C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\glm\;C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\glfw-3.3.8.bin.WIN64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\vulkan\Lib;C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\glfw-3.3.8.bin.WIN64\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\vulkan\Lib;C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\glfw-3.3.8.bin.WIN64\lib-vc2019;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>vulkan-1.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
@@ -152,18 +158,39 @@
       <LanguageStandard>stdcpp20</LanguageStandard>
       <LanguageStandard_C>stdc17</LanguageStandard_C>
       <AdditionalIncludeDirectories>C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\vulkan\Include;C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\glm\;C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\glfw-3.3.8.bin.WIN64\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\vulkan\Lib;C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\glfw-3.3.8.bin.WIN64\lib-vc2022;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\vulkan\Lib;C:\Users\ernes\OneDrive\Code\Personal Projects\C++\game-engine\cpp-game-engine\dependencies\glfw-3.3.8.bin.WIN64\lib-vc2019;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>vulkan-1.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\hello_triangle_application.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+      </PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+      </PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\hello_triangle_application.h" />
+    <ClInclude Include="src\pch.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
